@@ -1,0 +1,118 @@
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Conda / virtual environments
+# ==============================
+.conda/
+conda-env/
+.venv/
+venv/
+env/
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# ==============================
+# Raw meteorological data
+# ==============================
+data/source/*
+!data/source/.gitkeep
+
+*.grib
+*.grib2
+*.grb
+*.nc
+*.nc4
+
+# ==============================
+# Generated and processed data
+# ==============================
+data/processed/
+data/processed_small/
+data/processed_temp/
+data/processed_temp_small/
+data/processed_combined_small/
+data/processed_ele/
+data/vmd_data_small/
+data/season/
+
+# Serialized datasets
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ==============================
+# Model weights and checkpoints
+# ==============================
+*.ckpt
+*.ckpt.*
+*.h5
+*.keras
+*.onnx
+*.pb
+checkpoint
+
+# TensorFlow training files
+events.out.tfevents.*
+tensorboard/
+
+# ==============================
+# Experiment outputs
+# ==============================
+output/
+outputs/
+
+# ==============================
+# Generated tables and figures
+# ==============================
+*.xlsx
+*.xls
+
+figure/generated/
+figures/generated/
